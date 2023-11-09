@@ -1,0 +1,69 @@
+/* * {
+    background-color: grey;
+  } */
+
+body {
+    font-family: sans-serif;
+    /* background-color: grey; */
+}
+h1, h2, h3, h4, h5, h6 {
+    color: darkcyan;
+    text-align: left;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+}
+
+#solenoid-chart {
+    margin-top: -15px;
+    color: white;
+    background-color: white;
+    text-align: center;
+}
+
+.gauges {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#some-gauge {
+    display: inline-block;
+}
+
+#some-gauge2 {
+    display: inline-block;
+}
+
+#some-gauge3 {
+    display: inline-block;
+}
+
+#some-gauge4 {
+    display: inline-block;
+}
+
+#some-gauge5 {
+    display: inline-block;
+}
+
+#some-gauge6 {
+    display: inline-block;
+}
+
+#some-gauge7 {
+    display: inline-block;
+}
+
+#some-gauge8 {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    height: 40px;
+    width: auto;
+}
+
