@@ -1,0 +1,3 @@
+[submodule "mavlink"]
+	path = mavlink
+	url = git@github.com:UCI-Rocket-Project/mavlink.git
