@@ -4,10 +4,14 @@
 
 body {
     font-family: sans-serif;
-    /* background-color: grey; */
+    /* background-color: white; */
+    /* background-color: #1F1B24; */
+    background-color: #141414;
+    color: white;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: darkcyan;
+    color: white;
+    /* color: white; */
     text-align: left;
     position: relative;
 }
@@ -18,15 +22,20 @@ h2 {
 
 #solenoid-chart {
     margin-top: -15px;
-    color: white;
-    background-color: white;
+    color: black;
+    /* background-color: white; */
     text-align: center;
+    display: inline-block;
+    background-color: #1F1B24;
+    border-radius:'15px'
 }
 
 .gauges {
     text-align: center;
     display: flex;
     justify-content: space-around;
+    /* color: white; */
+    
 }
 
 #some-gauge {
@@ -63,7 +72,70 @@ h2 {
 
 img {
     display: inline-block;
-    height: 40px;
+    height: 80px;
     width: auto;
+    margin-right: 10px;
+    mix-blend-mode: multiply;
+    background: transparent;
+
 }
 
+#solenoid-on {
+    width: 400px;
+    display: inline-block;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    font-family: sans-serif;
+}
+
+#solenoid-div {
+    display: flex;
+    /* padding-left: 300px; */
+    align-items: center;
+}
+
+.headerClass {
+    display: flex;
+}
+
+.gauge-titles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.sol-curr-titles {
+    display: flex;
+    justify-content: space-around;
+}
+
+#top-row {
+    display: flex;
+    /* padding-left: 300px; */
+    align-items: center;
+}
+
+#sensor-chart {
+    padding-left: 75px;
+    margin-left: 30px;
+}
+
+#some-button {
+    text-align: center;
+    margin-right: 300px;
+    margin-top: -100px;
+}
+
+#alerts {
+    display: block;
+    margin-left: 20px;
+    padding-right: 100px;
+}
+
+.tc-gauges {
+    border:2px solid black;
+    border-radius: 20px;
+    padding-bottom: -100px;
+    background-color: #1F1B24;
+
+}
